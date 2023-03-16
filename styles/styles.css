@@ -14,17 +14,16 @@ body{
     padding-left:40px;
     padding-right: 40px;
     padding-top: 10px;
-    /*position: fixed;
-    top:0;
-    width:100%*/
+    position: fixed;
+    width:100%;
 }
 .header a{
     color:#E5E7EB;
 }
 .header_links{
-    display:flex;
+    display:inline-block;
     flex-direction: row;
-    gap: 30px;
+    padding: 45px;
 }
 .logo_text {
     color:#F9FAF8;
