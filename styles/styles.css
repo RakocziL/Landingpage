@@ -19,11 +19,68 @@ body{
     display:flex;
     flex-direction: row;
     gap: 30px;
-
-
 }
 .logo_text {
     color:#F9FAF8;
     font-weight:extra-bold;
-    font-size:48px;
+    font-size:24px;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+.intro{
+    background-color: #1F2937;
+    display: flex;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    padding-right:40px;
+    padding-left:40px;
+
+}
+.intro_text{
+    height:300px;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-right: px;
+}
+.intro_text h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+.intro_text p, button{
+    font-size: 18px;
+}
+.intro_text p{
+    color: #E5E7EB;
+    padding-right: 80px;
+}
+.intro_text button{
+    width:80px;
+    height: 40px;
+    background-color: #4287f5;
+    border-radius: 10%;
+    color: #F9FAF8;
+}
+.intro_pic{
+    background-color: gray;
+    height:300px;
+    width: 600px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
+
+
 }
