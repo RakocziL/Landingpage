@@ -6,7 +6,8 @@ body{
 
 /* Header design */
 .header{
-    background-color: #1F2937;
+    background-color:#1F2937;
+    height: 50px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -176,8 +177,6 @@ body{
     padding-inline: 50px;
 }
 .CtA_text{
-
-
 }
 .CtA_text h1{
     font-size:24px;
@@ -197,6 +196,15 @@ body{
     border-color:white;
     border-radius:25px;
     border-style:solid;
-    background-color:#3882F6;
-    
+    background-color:#3882F6; 
+}
+
+/* Footer design */
+.footer{
+    height:50px;
+    background-color: #1F2937;
+    color:gray;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
