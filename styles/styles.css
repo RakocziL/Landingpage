@@ -156,3 +156,47 @@ body{
     font-weight: bold;
     margin-top: 0px;
 }
+
+
+/* Call to Action */
+.CtA{
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.CtA_box{
+    height: 175px;
+    width: 700px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 25px;
+    padding-inline: 50px;
+}
+.CtA_text{
+
+
+}
+.CtA_text h1{
+    font-size:24px;
+    color:white;
+    margin-bottom:0px;
+    
+}
+.CtA_text p{
+    margin-top:0px;
+    font-size:18px;
+    color:#E5E7EB;
+}
+.CtA_button{
+    height: 40px;
+    width: 100px;
+    color:white;
+    border-color:white;
+    border-radius:25px;
+    border-style:solid;
+    background-color:#3882F6;
+    
+}
