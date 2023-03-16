@@ -133,3 +133,26 @@ body{
 }
 
 
+/* Epic Quote also looks epic */
+.quote{
+    background-color:#E5E7EB;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:end;
+    padding-right: 325px;
+    padding-left: 325px;
+}
+.quote_text{
+    font-style: italic;
+    color: gray;
+    font-size:36px;
+    margin-bottom: 0px;
+}
+.quote_name{
+    font-size: 24px;
+    color:#1F2937;
+    font-weight: bold;
+    margin-top: 0px;
+}
