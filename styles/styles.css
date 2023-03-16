@@ -11,6 +11,7 @@ body{
     align-items: center;
     padding-left:40px;
     padding-right: 40px;
+    padding-top: 10px;
 }
 .header a{
     color:#E5E7EB;
